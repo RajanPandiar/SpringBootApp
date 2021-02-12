@@ -1,0 +1,12 @@
+
+(GetListOfBanks.story)
+
+
+Scenario: 
+Given a user looking for details of bank
+Then response contains SBI at bankName (FAILED)
+(java.lang.AssertionError: Response path 'bankName' does not contain 'SBI)
+
+
+
+

@@ -1,0 +1,13 @@
+
+(verifyBankDetails.story)
+
+
+Scenario: 
+Given a user looking for details of bank
+When searching for details of banks
+Then the details of SBI bank is displayed (FAILED)
+(com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['bankName'] in path $ but found 'net.minidev.json.JSONArray'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.)
+
+
+
+
